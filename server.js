@@ -19,15 +19,15 @@ app.post('/users',(req,res)=>{
 })
 
 app.route('/users/:id')
-// READ
-.get((req,res)=>{
-  // User.findById()
-})
-// UPDATE
-.put((req,res)=>{
-  // User.findByIdAndUpdate()
-})
-// DELETE
-.delete((req,res)=>{
-  // User.findByIdAndDelete()
-})
+  // READ
+  .get((req, res) => {
+    // User.findById()
+  })
+  // UPDATE
+  .put((req, res) => {
+    // User.findByIdAndUpdate()
+  })
+  // DELETE
+  .delete((req, res) => {
+    // User.findByIdAndDelete()
+  })
